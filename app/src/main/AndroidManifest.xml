@@ -7,9 +7,10 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-
         <uses-permission android:name="android.permission.CAMERA" />
+
         <uses-feature android:name="android.hardware.camera" />
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
@@ -19,6 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".CreateQRActivity"
+            android:label="@string/title_activity_create_qr" />
     </application>
 
 </manifest>

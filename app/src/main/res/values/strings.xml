@@ -3,4 +3,10 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_create_qr">CreateQRActivity</string>
+    <string name="qr_content">Inhalt</string>
+    <string name="qr_new_title">Neuen QR-Code anlegen</string>
+    <string name="qr_submit">Anlegen</string>
+    <string name="qr_new_ico">Neuer QR-Code anlegen</string>
+
 </resources>
